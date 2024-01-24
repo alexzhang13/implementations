@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/alex/Projects/playground/implementations/rpc/cmake/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DCARES_STATICLIB -I/Users/alex/Projects/playground/implementations/rpc/cmake/build -isystem /Users/alex/.local/include -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/hw_grpc_proto.dir/simple.grpc.pb.cc.o -c /Users/alex/Projects/playground/implementations/rpc/cmake/build/simple.grpc.pb.cc",
+  "file": "/Users/alex/Projects/playground/implementations/rpc/cmake/build/simple.grpc.pb.cc",
+  "output": "CMakeFiles/hw_grpc_proto.dir/simple.grpc.pb.cc.o"
+},
+{
+  "directory": "/Users/alex/Projects/playground/implementations/rpc/cmake/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DCARES_STATICLIB -I/Users/alex/Projects/playground/implementations/rpc/cmake/build -isystem /Users/alex/.local/include -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/hw_grpc_proto.dir/simple.pb.cc.o -c /Users/alex/Projects/playground/implementations/rpc/cmake/build/simple.pb.cc",
+  "file": "/Users/alex/Projects/playground/implementations/rpc/cmake/build/simple.pb.cc",
+  "output": "CMakeFiles/hw_grpc_proto.dir/simple.pb.cc.o"
+},
+{
+  "directory": "/Users/alex/Projects/playground/implementations/rpc/cmake/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DCARES_STATICLIB -I/Users/alex/Projects/playground/implementations/rpc/cmake/build -isystem /Users/alex/.local/include -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/greeter_client.dir/greeter_client.cc.o -c /Users/alex/Projects/playground/implementations/rpc/greeter_client.cc",
+  "file": "/Users/alex/Projects/playground/implementations/rpc/greeter_client.cc",
+  "output": "CMakeFiles/greeter_client.dir/greeter_client.cc.o"
+},
+{
+  "directory": "/Users/alex/Projects/playground/implementations/rpc/cmake/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DCARES_STATICLIB -I/Users/alex/Projects/playground/implementations/rpc/cmake/build -isystem /Users/alex/.local/include -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/greeter_server.dir/greeter_server.cc.o -c /Users/alex/Projects/playground/implementations/rpc/greeter_server.cc",
+  "file": "/Users/alex/Projects/playground/implementations/rpc/greeter_server.cc",
+  "output": "CMakeFiles/greeter_server.dir/greeter_server.cc.o"
+}
+]

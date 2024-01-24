@@ -1,0 +1,45 @@
+// Copyright 2015 gRPC authors.
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+syntax = "proto3";
+
+option objc_class_prefix = "HLW";
+
+package simple;
+
+service Requester {
+  rpc SayHello(HelloRequest) returns (HelloReply) {}
+  rpc PrintData(DataRequest) returns (DefaultResponse) {}
+}
+// The request message containing the user's name.
+message HelloRequest { string name = 1; }
+
+// The response message containing the greetings
+message HelloReply { string message = 1; }
+
+message DefaultResponse { string message = 1; }
+
+// Passed message type
+message Tensor {}
+
+message DataRequest {
+  string name = 100;
+  int32 user_id = 1;
+  int32 process_id = 2;
+  int32 node_id = 3;
+  int32 device_id = 4;
+  int32 function_id = 5;
+  int32 dims = 6;
+  repeated float data = 7;
+}

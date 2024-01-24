@@ -5,6 +5,14 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
+class RoPE(nn.Module):
+    def __init__(self):
+        pass
+
+    def forward():
+        pass
+
+
 class SinusoidalPositionalEncoding(nn.Module):
     def __init__(self, dim):
         super().__init__()
